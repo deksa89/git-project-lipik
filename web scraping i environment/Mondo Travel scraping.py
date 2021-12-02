@@ -62,7 +62,7 @@ for gr in gradovi:
 #     #print(pocetak.text)
 #     sub = []
 #     for p in pocetak:
-#         if p.text is '':
+#         if p.text == '':
 #             pass
 #         else:
 #             sub.append(p.text)
