@@ -40,6 +40,6 @@ for i, row in data.iterrows():
     data.at[i, "value"] = euri
     data.at[i, "currency"] = "EUR"
 
-
+#4 zadatak s datetime, python calculates date difference
 
 print(data.head())
