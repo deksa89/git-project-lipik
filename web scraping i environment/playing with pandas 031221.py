@@ -101,7 +101,7 @@ sri_grupa = po_danima.get_group("Wed")
 
 #puling out minimum and maximum price on Wednesdays
 najjeftinije_najskuplje = sri_grupa.Value.agg(['min', 'max'])
-print(najjeftinije)
+print(najjeftinije_najskuplje)
 
 
 
