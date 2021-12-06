@@ -1,7 +1,5 @@
 import pandas as pd
 import re
-from collections import Counter
-from natsort import natsorted
 import numpy as np
 
 #1. Loadaj tablicu
