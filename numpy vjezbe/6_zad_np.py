@@ -7,7 +7,7 @@
 
 import numpy as np
 
-a = np.eye(4)
+a = np.eye(4, dtype=int)
 #print(a)
 
 b = np.full(4, 9)
