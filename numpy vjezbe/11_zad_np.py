@@ -5,6 +5,13 @@
 import numpy as np
 
 a = np.random.randint(1,10, size=(2, 3))
+if a.mean() > 10:
+    print(a.sum())
+else:
+    print("nema nista za tebe")
+
+
+
 print(a)
 print(a.max())
 print(a.min())
