@@ -63,7 +63,7 @@ try:
         cv2.circle(image_road, center, radius, (245, 227, 66), 2)
 
 except:
-    print("ne nalazi linije ili krugove")
+    print("no lines and circles on the img")
 
 
 cv2.imshow("linije", image_road)
